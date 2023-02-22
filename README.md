@@ -26,9 +26,11 @@ Obtaining optimal values for hyperparameters in deep neural networks using wandb
 
 
 ## 3. Evaluation of the best model using real images
+In this section, to evaluate the performance of the best model on unseen data, I downloaded 10 images with a mask and 10 images without a mask. Then, using opencv, the area of the person's face is extracted, the dimensions of the image are changed to 32 x 32. Then the images are given one by one to the best model and finally the accuracy of the model performance is obtained.
 
 
 ## 4. Transfer Learning
+At the end, we fine tune the Resnet50 pretrained model on our data and use it to classify the unseen data.
 
 
 ## Support
