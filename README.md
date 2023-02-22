@@ -3,6 +3,10 @@
 In this project, we are going to determine from the image of people's faces whether the person is wearing a mask or not using PyTorch.
 
 ## 1. Training Different Models
+Initial weighting using methods:
+1. Kaiming
+2. Xeviar
+
 I used AlexNet network architecture as the main basis for building different networks.
 You can see the list of various models that I have taught below:
 * No Dropout and No Batch Normalization
