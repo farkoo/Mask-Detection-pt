@@ -6,7 +6,10 @@ In this project, we are going to determine from the image of people's faces whet
 
 
 ## Using WandB to find the best configurations for hyperparameters
-
+Obtaining optimal values for hyperparameters in deep neural networks using wandb
+<p align=center>
+  <img src="https://github.com/farkoo/Mask-Detection-pt/blob/master/wandb.png">
+</p>
 
 ## Evaluation of the best model using real images
 
